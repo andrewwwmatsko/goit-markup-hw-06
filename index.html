@@ -54,6 +54,87 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="header-menu-btn">
+          <svg class="header-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu-2"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu">
+        <div class="mob-top-menu">
+          <button type="button" class="modal-close-btn mob">
+            <svg class="modal-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            </svg>
+          </button>
+
+          <nav class="mob-navigation-menu">
+            <ul class="mob-nav-bar">
+              <li class="mob-nav-bar-item">
+                <a class="mob-nav-bar-link mob-current" href="./index.html">
+                  Studio
+                </a>
+              </li>
+              <li class="mob-nav-bar-item">
+                <a class="mob-nav-bar-link" href=""> Portfolio </a>
+              </li>
+              <li class="mob-nav-bar-item">
+                <a class="mob-nav-bar-link" href=""> Contacts </a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="mob-contacts">
+            <ul class="mob-contacts-list">
+              <li class="mob-contacts-list-item">
+                <a href="mailto:info@devstudio.com" class="mob-contacts-item"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-contacts-list-item">
+                <a href="tel:+110001111111" class="mob-contacts-item"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <ul class="our-team-soc-list">
+          <li class="our-team-soc-item">
+            <a href="./index.html" target="_blank" class="team-soc-link">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="our-team-soc-item">
+            <a href="./index.html" target="_blank" class="team-soc-link">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="our-team-soc-item">
+            <a href="./index.html" target="_blank" class="team-soc-link">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="our-team-soc-item">
+            <a href="./index.html" target="_blank" class="team-soc-link">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -546,7 +627,7 @@
         </div>
 
         <div class="footer-social-media">
-          <p class="footer-social-media">Social media</p>
+          <p class="footer-social-title">Social media</p>
 
           <ul class="footer-social-list">
             <li class="footer-list-item">
@@ -581,30 +662,32 @@
         </div>
 
         <div class="footer-subscribe">
-          <p class="footer-title footer-social-media">Subscribe</p>
+          <p class="footer-title footer-social-title">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-email-label">
-              <input
-                type="email"
-                name="footer-email"
-                id="footer-email"
-                class="footer-email-input"
-                placeholder="E-mail"
-              />
-            </label>
+            <div class="footer-form-container">
+              <label class="footer-email-label">
+                <input
+                  type="email"
+                  name="footer-email"
+                  id="footer-email"
+                  class="footer-email-input"
+                  placeholder="E-mail"
+                />
+              </label>
 
-            <button type="submit" class="footer-subscribe-btn">
-              Subscribe
-              <svg class="footer-subscribe-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-subscribe-bnt-icon"></use>
-              </svg>
-            </button>
+              <button type="submit" class="footer-subscribe-btn">
+                Subscribe
+                <svg class="footer-subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-subscribe-bnt-icon"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
