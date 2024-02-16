@@ -90,7 +90,7 @@ section {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo.header {
+.header-logo {
   display: block;
   padding: 17px 0;
 }
@@ -121,23 +121,31 @@ section {
   top: 0;
   left: 0;
   background: #fff;
-  padding: 0px 16px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mob-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 72px 16px 40px 16px;
+  position: relative;
+}
+
 .mob-menu .modal-close-btn {
   background-color: transparent;
 }
 .mob-navigation-menu {
-  margin-top: 72px;
-  margin-bottom: 168px;
+  margin-bottom: auto;
 }
 .mob-nav-bar {
   display: flex;
@@ -224,7 +232,7 @@ section {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 72px;
-  max-width: 288px;
+  max-width: 216px;
   text-transform: capitalize;
 }
 .order-service-button {
@@ -770,6 +778,7 @@ section {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
 }
 
 .modal-checkbox-span {
@@ -780,6 +789,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   margin-right: 8px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -839,7 +849,7 @@ section {
     justify-content: flex-start;
   }
 
-  .logo.header {
+  .header-logo {
     padding: 25px 0;
     margin-right: 120px;
   }
@@ -975,7 +985,9 @@ section {
 
   /* Footer */
   .footer-container {
+    padding: 0 108px;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 24px;
