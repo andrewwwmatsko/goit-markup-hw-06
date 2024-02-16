@@ -1049,6 +1049,13 @@ section {
     min-width: 264px;
   }
   /* ================ */
+
+  /* Modal */
+
+  .modal {
+    min-width: 408px;
+    min-height: 584px;
+  }
 }
 
 /* ========================== */
