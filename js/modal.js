@@ -1,3 +1,5 @@
+// Order service modal window
+
 (() => {
   const refs = {
     openModalBtn: document.querySelector("[data-modal-open]"),
@@ -12,6 +14,8 @@
     refs.modal.classList.toggle("is-open");
   }
 })();
+
+// Mobile menu
 
 (() => {
   const refs = {
